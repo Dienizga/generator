@@ -1,5 +1,10 @@
-server:
-  port: 8080
+spring:
+  kafka:
+    bootstrap-servers: host.docker.internal:29092,host.docker.internal:29093
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 
-topic:
-  name: Word
+kafka:
+  topics:
+    topic: words
