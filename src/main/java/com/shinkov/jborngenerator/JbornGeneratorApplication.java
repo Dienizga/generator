@@ -1,6 +1,6 @@
 package com.shinkov.jborngenerator;
 
-import com.shinkov.jborngenerator.service.Producer;
+import com.shinkov.jborngenerator.producer.Producer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

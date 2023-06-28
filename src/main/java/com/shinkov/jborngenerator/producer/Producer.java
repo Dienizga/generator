@@ -1,5 +1,6 @@
-package com.shinkov.jborngenerator.service;
+package com.shinkov.jborngenerator.producer;
 
+import com.shinkov.jborngenerator.service.RandomWordsGeneratorService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
